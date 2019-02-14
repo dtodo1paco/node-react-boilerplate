@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logout /> should match the snapshot 1`] = `
+<div
+  className="MuiPaper-root-5 MuiPaper-elevation10-17 MuiPaper-rounded-6 Connect-Logout--root-1"
+  id="logout-component"
+>
+  <h1
+    className="MuiTypography-root-32 MuiTypography-display1-36 MuiTypography-colorPrimary-52 Connect-Logout--header-2"
+  >
+    <span>
+      You are about to leave the system. Are you sure?
+    </span>
+  </h1>
+  <div
+    className="Connect-Logout--buttonBar-3"
+  >
+    <button
+      aria-label="back"
+      className="MuiButtonBase-root-83 MuiButton-root-57 MuiButton-text-59 MuiButton-textSecondary-61 MuiButton-flat-62 MuiButton-flatSecondary-64"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-58"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-86"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-3 12.59L17.59 17 14 13.41 10.41 17 9 15.59 12.59 12 9 8.41 10.41 7 14 10.59 17.59 7 19 8.41 15.41 12 19 15.59z"
+          />
+        </svg>
+        <span>
+          Back
+        </span>
+      </span>
+      <span
+        className="MuiTouchRipple-root-93"
+      />
+    </button>
+    <button
+      aria-label="exit"
+      className="MuiButtonBase-root-83 MuiButton-root-57 MuiButton-text-59 MuiButton-textSecondary-61 MuiButton-flat-62 MuiButton-flatSecondary-64 Connect-Logout--button2-4"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-58"
+      >
+        <span>
+          Leave
+        </span>
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-86"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-93"
+      />
+    </button>
+  </div>
+</div>
+`;

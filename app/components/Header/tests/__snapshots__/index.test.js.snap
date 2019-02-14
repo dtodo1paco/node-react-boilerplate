@@ -1,0 +1,358 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> when a user is logged in... snapshot 1`] = `
+<div>
+  <WithStyles(AppBar)
+    className=""
+    position="absolute"
+  >
+    <WithStyles(Toolbar)
+      disableGutters={true}
+    >
+      <WithStyles(IconButton)
+        aria-label="Open drawer"
+        color="inherit"
+        onClick={[Function]}
+      >
+        <pure(MenuIcon) />
+      </WithStyles(IconButton)>
+      <nav>
+        <div
+          id="header-title"
+        >
+          <Link
+            replace={false}
+            to="/"
+          >
+            <WithStyles(Typography)
+              variant="headline"
+            >
+              <FormattedMessage
+                defaultMessage="dtodo1paco"
+                id="app.title"
+                values={Object {}}
+              />
+            </WithStyles(Typography)>
+          </Link>
+        </div>
+        <div
+          id="header-links"
+        >
+          <div />
+          <WithStyles(UserMenu)
+            user={
+              Object {
+                "auth": true,
+                "data": Object {
+                  "email": "11@ascasd.co",
+                  "lastLogin": "2018-10-18T16:12:03.565Z",
+                  "name": "44",
+                  "settings": Object {
+                    "lastRoute": "/account/settings",
+                    "locale": "es",
+                    "theme": "material",
+                  },
+                  "userid": "44",
+                },
+                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjViYTExZDExYjlmNWQ4NWI3OTYxM2Y2YyIsImlhdCI6MTUzOTkyNzYzNSwiZXhwIjoxNTM5OTI3OTM1fQ.bt4jv-tecy2qjRgC9S5xTkl1PkY7bN_BwaWSWIVbu_Q",
+              }
+            }
+          />
+        </div>
+      </nav>
+    </WithStyles(Toolbar)>
+  </WithStyles(AppBar)>
+  <WithStyles(Drawer)
+    ModalProps={
+      Object {
+        "onBackdropClick": [Function],
+      }
+    }
+    id="header-drawer-links"
+    onClick={[Function]}
+    open={false}
+  >
+    <div>
+      <WithStyles(Typography)
+        variant="headline"
+      >
+        <FormattedMessage
+          defaultMessage="dtodo1paco"
+          id="app.title"
+          values={Object {}}
+        />
+      </WithStyles(Typography)>
+      <WithStyles(IconButton)>
+        <pure(ChevronLeftIcon) />
+      </WithStyles(IconButton)>
+    </div>
+    <WithStyles(Divider) />
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      key="app"
+      location={
+        Object {
+          "hash": "tEsT",
+          "pathname": "/app",
+          "search": "",
+        }
+      }
+      to="/app"
+    >
+      <WithStyles(ListItem)>
+        <WithStyles(ListItemIcon)>
+          <pure(HomeIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          disableTypography={true}
+        >
+          <FormattedMessage
+            defaultMessage="Home"
+            id="app.routes.app"
+            values={Object {}}
+          />
+        </WithStyles(ListItemText)>
+      </WithStyles(ListItem)>
+    </NavLink>
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      key="settings"
+      location={
+        Object {
+          "hash": "tEsT",
+          "pathname": "/app",
+          "search": "",
+        }
+      }
+      to="/account/settings"
+    >
+      <WithStyles(ListItem)>
+        <WithStyles(ListItemIcon)>
+          <pure(AccountCircleIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          disableTypography={true}
+        >
+          <FormattedMessage
+            defaultMessage="Settings"
+            id="app.routes.settings"
+            values={Object {}}
+          />
+        </WithStyles(ListItemText)>
+      </WithStyles(ListItem)>
+    </NavLink>
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      key="logout"
+      location={
+        Object {
+          "hash": "tEsT",
+          "pathname": "/app",
+          "search": "",
+        }
+      }
+      to="/auth/logout"
+    >
+      <WithStyles(ListItem)>
+        <WithStyles(ListItemIcon)>
+          <pure(ExitToAppIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          disableTypography={true}
+        >
+          <FormattedMessage
+            defaultMessage="Logout"
+            id="app.routes.logout"
+            values={Object {}}
+          />
+        </WithStyles(ListItemText)>
+      </WithStyles(ListItem)>
+    </NavLink>
+  </WithStyles(Drawer)>
+</div>
+`;
+
+exports[`<Header /> when no user logged in... snapshot 1`] = `
+<div>
+  <WithStyles(AppBar)
+    className=""
+    position="absolute"
+  >
+    <WithStyles(Toolbar)
+      disableGutters={true}
+    >
+      <WithStyles(IconButton)
+        aria-label="Open drawer"
+        color="inherit"
+        onClick={[Function]}
+      >
+        <pure(MenuIcon) />
+      </WithStyles(IconButton)>
+      <nav>
+        <div
+          id="header-title"
+        >
+          <Link
+            replace={false}
+            to="/"
+          >
+            <WithStyles(Typography)
+              variant="headline"
+            >
+              <FormattedMessage
+                defaultMessage="dtodo1paco"
+                id="app.title"
+                values={Object {}}
+              />
+            </WithStyles(Typography)>
+          </Link>
+        </div>
+        <div
+          id="header-links"
+        >
+          <div>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              key="login"
+              location={
+                Object {
+                  "hash": "tEsT",
+                  "pathname": "/",
+                  "search": "",
+                }
+              }
+              to="/auth/login"
+            >
+              <WithStyles(ListItem)>
+                <WithStyles(ListItemText)
+                  disableTypography={true}
+                >
+                  <FormattedMessage
+                    defaultMessage="Login"
+                    id="app.routes.login"
+                    values={Object {}}
+                  />
+                </WithStyles(ListItemText)>
+              </WithStyles(ListItem)>
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              key="help"
+              location={
+                Object {
+                  "hash": "tEsT",
+                  "pathname": "/",
+                  "search": "",
+                }
+              }
+              to="/help"
+            >
+              <WithStyles(ListItem)>
+                <WithStyles(ListItemText)
+                  disableTypography={true}
+                >
+                  <FormattedMessage
+                    defaultMessage="Help"
+                    id="app.routes.help"
+                    values={Object {}}
+                  />
+                </WithStyles(ListItemText)>
+              </WithStyles(ListItem)>
+            </NavLink>
+          </div>
+          <WithStyles(Connect(LocaleToggle))
+            inAppBar={true}
+          />
+        </div>
+      </nav>
+    </WithStyles(Toolbar)>
+  </WithStyles(AppBar)>
+  <WithStyles(Drawer)
+    ModalProps={
+      Object {
+        "onBackdropClick": [Function],
+      }
+    }
+    id="header-drawer-links"
+    onClick={[Function]}
+    open={false}
+  >
+    <div>
+      <WithStyles(Typography)
+        variant="headline"
+      >
+        <FormattedMessage
+          defaultMessage="dtodo1paco"
+          id="app.title"
+          values={Object {}}
+        />
+      </WithStyles(Typography)>
+      <WithStyles(IconButton)>
+        <pure(ChevronLeftIcon) />
+      </WithStyles(IconButton)>
+    </div>
+    <WithStyles(Divider) />
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      key="login"
+      location={
+        Object {
+          "hash": "tEsT",
+          "pathname": "/",
+          "search": "",
+        }
+      }
+      to="/auth/login"
+    >
+      <WithStyles(ListItem)>
+        <WithStyles(ListItemIcon)>
+          <pure(AccountCircleIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          disableTypography={true}
+        >
+          <FormattedMessage
+            defaultMessage="Login"
+            id="app.routes.login"
+            values={Object {}}
+          />
+        </WithStyles(ListItemText)>
+      </WithStyles(ListItem)>
+    </NavLink>
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      key="help"
+      location={
+        Object {
+          "hash": "tEsT",
+          "pathname": "/",
+          "search": "",
+        }
+      }
+      to="/help"
+    >
+      <WithStyles(ListItem)>
+        <WithStyles(ListItemIcon)>
+          <pure(HelpIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          disableTypography={true}
+        >
+          <FormattedMessage
+            defaultMessage="Help"
+            id="app.routes.help"
+            values={Object {}}
+          />
+        </WithStyles(ListItemText)>
+      </WithStyles(ListItem)>
+    </NavLink>
+  </WithStyles(Drawer)>
+</div>
+`;

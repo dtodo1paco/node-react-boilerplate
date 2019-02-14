@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Notification /> snapshot should match the snapshot 1`] = `
+<div>
+  <div
+    class="MuiSnackbar-root-1 MuiSnackbar-anchorOriginBottomCenter-3"
+  >
+    <div
+      aria-describedby="message-id"
+      class="MuiTypography-root-38 MuiTypography-body1-47 MuiPaper-root-11 MuiPaper-elevation6-19 MuiSnackbarContent-root-8"
+      direction="up"
+      role="alertdialog"
+    >
+      <div
+        class="MuiSnackbarContent-message-9"
+      >
+        <span
+          id="message-id"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root-63"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+            />
+          </svg>
+          <span>
+            There are some problems connecting with server. Try again in a minute.
+          </span>
+        </span>
+      </div>
+      <div
+        class="MuiSnackbarContent-action-10"
+      >
+        <button
+          aria-label="Close"
+          class="MuiButtonBase-root-76 MuiIconButton-root-70"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label-75"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-63"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root-79"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
